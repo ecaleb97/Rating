@@ -1,0 +1,209 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    background: hsl(216, 12%, 8%);
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    background: linear-gradient(hsl(213, 19%, 18%), hsl(216, 12%, 8%));
+    width: 290px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.second-container {
+    background: hsl(213, 19%, 18%);
+}
+
+.circle,
+.title,
+.paragraph,
+.feedback,
+.btn {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.circle {
+    border-radius: 50px;
+    background: hsl(213, 19%, 18%);
+    height: 30px;
+    width: 30px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.circle-non-visible {
+    display: none;
+}
+
+.circle img {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+
+.title h3 {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Overpass', sans-serif;
+}
+
+.title-non-visible {
+    display: none;
+}
+
+.paragraph p {
+    color: hsl(217, 12%, 63%);
+    font-family: 'Overpass', sans-serif;
+    font-size: 13px;
+}
+
+.paragraph-non-visible {
+    display: none;
+}
+
+.feedback {
+    display: flex;
+    flex-direction: row;
+    height: 45px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.feedback-non-visible {
+    display: none;
+}
+
+.number {
+    background: hsl(213, 19%, 18%);
+    height: 35px;
+    width: 35px;
+    border-radius: 50px;
+    color: hsl(217, 12%, 63%);
+    border-style: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number:hover {
+    cursor: pointer;
+    background: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+
+.number-active {
+    background: hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%);
+}
+
+.number button {
+    font-family: 'Overpass', sans-serif;
+    font-size: 13px;
+}
+
+.text {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: hsl(217, 12%, 63%);
+    font-family: 'Overpass', sans-serif;
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 20px;
+    display: none;
+}
+
+.text-visible {
+    display: block;
+}
+
+.illustration-thank-you {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    display: none;
+}
+
+.illustration-thank-you img {
+    height: 80px;
+    width: 120px;
+}
+
+.illustration-thank-you-visible {
+    display: flex;
+}
+
+.rating {
+    background: hsl(200, 5%, 20%); 
+    border-radius: 20px;
+    height: 30px;
+    width: 160px;
+    margin-left: 65px;
+    text-align: center;
+    line-height: 30px;
+    font-family: 'Overpass', sans-serif;
+    font-size: 13px;
+    color: hsl(25, 97%, 53%);
+    display: none;
+}
+
+.rating-visible {
+    display: block;
+}
+
+.thanks {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Overpass', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    display: none;
+}
+
+.thanks-visible {
+    display: block;
+}
+
+
+.btn {
+    background: hsl(25, 97%, 53%);
+    border-style: none;
+    border-radius: 20px;
+    height: 30px;
+    color: hsl(0, 0%, 100%);
+    text-transform: uppercase;
+    font-family: 'Overpass', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    padding-top: 3px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+.btn-none {
+    display: none;
+}
+
+
+
+
